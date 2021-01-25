@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+#room {
+    width: 1000px;
+    height: 500px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+/*    background-image: url('https://images.unsplash.com/photo-1462219184706-54ee45591096?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1352&q=80'); */
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 20px 50px black;
+}
+
+#boy {
+    background-image: url("pics/48/front-static-48.png");
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    filter: drop-shadow(0 20px 15px rgb(0, 0, 0));
+    /* transition: transform 2s cubic-bezier(0.1,0.5,0.5,0.1); */
+}
+/* 
+#boy:hover {     
+    /* background-image: url("pics/48/front-static-48.png");
+    width: 48px;
+    height: 48px; */
+    /* transform:translateY(-30px); */
+    /* margin-bottom: 50px; */
+    /* transform:rotate(360deg); */
+/* }
